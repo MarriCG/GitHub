@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--Student: Marlo Golding // ID: 620033924// Lecturer-->
+
+<title>Resume</title>
+<style type="text/css">
+
+	*{
+	margin:10;
+	padding:5;}
+	
+	body{
+		background-color:#f8f8ff;
+		}
+		
+		
+	a{
+		color: black; 
+		text-decoration: none; 
+		border-bottom: 1px dotted black;
+		}
+		
+	a:hover {
+		color: blue; }
+	
+	#photo{
+		float:right;
+		border:1px solid white;
+		border-radius:4px;
+		padding:5px;
+		filter:grayscale(100%);
+		-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+		background-clip: content-box; 
+		box-shadow: inset 0 0 0 4px white; 
+		-ms-transform: rotate(-5deg); /* IE 9 */
+		-webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
+		transform: rotate(-5deg);
+		position:absolute;
+        clear:both;
+        left:72%;
+		}
+	
+	
+	
+	h3 span{
+		font-family:Times New Roman;
+		font-color:#a6a6a6;
+		text-align:right;
+		}
+		
+	#quote{
+		color:#686868; 
+		text-align:left;
+		float:left;
+		width:75%;}
+		
+	#email{
+		text-color:#DCDCDC;
+		}
+	
+	dt {
+		width:22%;
+		height:100px;
+		text-align:right;
+		padding: 0 25px 0 0;
+		float: left; 
+		clear:left;
+		font-style:italic;
+		border-right: 2px solid #a6a6a6;
+		}
+    
+	
+	
+	dd{
+		width:63%;
+		float:right;
+		position:relative;
+		top:50%;
+		padding: 0 18px 0 0;
+		} 
+
+	.section{
+		font-family:Arial Black;
+		font-weight:bold;
+		font-style:italic;
+		font-size:80%}
+		
+		
+	.section2{
+		font-family:Arial Black;
+		font-weight:bold;
+		font-size:100%}
+	
+	
+	.spacediv{
+		height:20px;
+		clear:both;}
+	
+	.spacediv2{
+		height:10px;
+		clear:both;}
+	
+	.spacediv3{
+		width:50px;
+		}
+
+	#expansion{
+		align:right;
+		position:relative;
+		font-family:Times New Roman;
+		font-style:italic;
+		text-align:right;
+        font-weight:normal;
+		font-size:95%;
+		color:lightgrey;
+		padding: 15 0 0 0;
+		}
+		
+	.whitespc{
+		white-space:pre-wrap;}
+	
+ 		
+	
+	
+</style>
+</head>
+
+
+
+
+<body>
+	<div style="margin:30px">
+	
+	
+		<div id="photo">
+			<img src="https://lh3.googleusercontent.com/zczd6PlCIBItmvtgdm9SLOU325oqsjTIoPv41y0bR5htn1nr_ObtBZoKcFW1R74L2e6UeK-MPdDqpS_kwPHYsWjQ3HKYSq6dCTWBDe1esANyaA1U71nvLXQRyouv80RKoGrLYLXnWND_tiCYDY51feiXjg_Wn8KDlJaBrcopfXFMu2sk67URhf0GQqBZdIw7BiUtchfmb88A32E0yWSGs8Lsj2ohX9f8gXTBurb23PmXJg78Cl3XqhiAgXcYVTouXvxFGS4BIpeDToLaq-MtS9talJ_oqxzIg-35yWzNkyrdv6OWnAc6Zy8IIR5b_vu9PoSyUFq8_WFHIefmJzik0M94i3HZJCop2ral3IQPH-SDHLqOFdnWNJFs26qdzg__6pWeqV1c7FAjLhCC36wHqZhOnah9wC9tjlcYjX9KLBZ1qHySucPBEz1lkH-yt6DvHLvny-ens89gq4WKj1p-qq9clAn94MqhwBpHPTfmGUESQkiCiugbu6IMU-lGh0bKyOU3X1ftsLXTZL_K5cBspZ09-tq_yzpvDLOMesBDO2gtZv-zJiUnEB_l3PqPVdhcPEg9ZQo20ore2O2r_oF3tyAO61Uo7jQm2bt8UfESqA=w448-h598-no" height="190" width="130">
+		</div>
+		
+		
+		
+		
+		<div id="contact">
+			<h1 style="font-family:Arial">Marlo Golding</h1><hr/>
+			<p>
+				<strong>Cell:876-999-2456</strong><br/>
+				<strong>Email:</strong> <a href="mailto:marricgolding@hotmail.com"><span id="email">marricgolding@hotmail.com</span></a>
+			</p>
+		</div>
+			
+		<div id="quote">
+			<p>
+				<em>
+					I consider myself someone who likes to work or “get things 
+					done”. I am very interested in technological advances and 
+					endeavour to make my own contributions to the field of I.T. My most
+					important objective is to make a lasting contribution to the	
+					areas of artificial intelligence computing and design technology.
+				</em>
+			</p>
+		</div>
+			
+		
+		
+		<div>
+			<dl>
+				<dt class="section">Education</dt>
+				<dd>
+					<span class="section2">University of the West Indies, Mona – Western Jamaica Campus</span><br/>
+					<ul><li><strong>Degree:</strong> Information Technology</li></ul>
+					
+				</dd>
+				
+				
+				<div class="spacediv"></div>
+				
+				
+				<dt class="section">Skills</dt>
+				<dd>
+					<span class="section2">Office Skills</span>
+					<div class="spacediv2"></div>
+					Customer service, data entry, MS Office
+					<div class="spacediv"></div>
+					<span class="section2">Computing Skills</span>
+					<div class="spacediv2"></div>
+					Computer programming in: C, Java, Python, Ruby and Perl as well as web and graphics design
+				</dd>
+				
+				
+				<div class="spacediv"></div>
+				
+				
+				<dt class="section">Work Experience</dt>
+				<dd>
+					<span class="section2">Sandals Resorts<span id="expansion" class="whitespc">         Junior I.T. Assistant - MoBay, St. James - 2012 - 2014</span></span>
+				
+					<ul>
+						<li>log reports of site malfunction</li>
+						<li>wrote scripts to patch functionality errors</li>
+						<li>performed regular server security tests</li>
+					</ul>
+				
+				</dd>
+				
+				
+				<div class="spacediv"></div>
+				
+				
+				<dt class="section">Hobbies</dt>
+				<dd>Competitive mapping, swimming, reading Wuxia</dd>
+				
+				
+				<div class="spacediv"></div>
+				
+				
+				<dt class="section">References</dt>
+				<dd>Available on request</dd>
+				
+				
+			</dl>
+		</div>
+		
+		
+	<div>
+</body>
+
+</html>
